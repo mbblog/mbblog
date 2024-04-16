@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://mbblog.io/'
 languageCode = 'en-US'
 title = 'mbblog.io'
 DefaultContentLanguage = "en"
@@ -23,3 +23,6 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   disableScrollToTop = false
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/mbblog"
