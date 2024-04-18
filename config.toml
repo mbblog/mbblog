@@ -26,3 +26,13 @@ theme = "PaperMod"
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mbblog"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'IT'
+    url = 'https://it.mbblog.io'
+    weight = 20
