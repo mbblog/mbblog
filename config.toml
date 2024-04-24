@@ -4,6 +4,8 @@ title = 'mbblog.io'
 DefaultContentLanguage = "en"
 theme = "PaperMod"
 
+enableRobotsTXT = true
+
 [languages]
   [languages.en]
     disabled = false
@@ -23,6 +25,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   ShowReadingTime = true
   disableScrollToTop = false
+  env = 'production'
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/mbblog"
